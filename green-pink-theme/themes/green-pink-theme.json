@@ -1,0 +1,77 @@
+{
+  "name": "Green Pink Theme",
+  "type": "dark",
+
+  "colors": {
+    "editor.background": "#1A0F14",
+    "editor.foreground": "#FFB6C1",
+    "editorCursor.foreground": "#FF69B4",
+    "editor.lineHighlightBackground": "#2A1620",
+    "editor.selectionBackground": "#4A1F33"
+  },
+
+  "tokenColors": [
+    {
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#00FF7F",
+        "fontStyle": "bold"
+      }
+    },
+
+    {
+      "scope": [
+        "string",
+        "string.quoted",
+        "string.template"
+      ],
+      "settings": {
+        "foreground": "#FF69B4"
+      }
+    },
+
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#C08497",
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "scope": [
+        "variable",
+        "variable.other",
+        "identifier"
+      ],
+      "settings": {
+        "foreground": "#FFB6C1"
+      }
+    },
+
+    {
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#FF85B3"
+      }
+    },
+
+    {
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#FF99CC"
+      }
+    }
+  ]
+}

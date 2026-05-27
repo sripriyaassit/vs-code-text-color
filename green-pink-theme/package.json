@@ -1,0 +1,20 @@
+{
+  "name": "green-pink-theme",
+  "displayName": "Green Pink Theme",
+  "description": "Green keywords and pink text theme",
+  "version": "1.0.0",
+  "publisher": "priyakumari",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Green Pink Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/green-pink-theme.json"
+      }
+    ]
+  }
+}
